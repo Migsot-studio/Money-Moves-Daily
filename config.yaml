@@ -1,0 +1,45 @@
+# Core settings for Money Moves Daily
+site:
+  title: "Money Moves Daily"
+  tagline: "Simple daily moves to grow your money"
+  url_base: ""  # e.g. https://<user>.github.io/<repo> (no trailing slash). Leave blank; RSS will be relative.
+
+schedule:
+  timezone: "America/Indiana/Indianapolis"
+  send_hour_local: 8   # newsletter generation time (local)
+
+niche:
+  topic: "Personal finance for busy professionals"
+  persona: "Friendly, practical, no jargon, 150–300 words sections"
+  disclaimers:
+    - "This newsletter is for education only — not financial advice."
+    - "Affiliate links may appear. We only recommend tools we like."
+
+sources:
+  rss_feeds:
+    - "https://www.nerdwallet.com/blog/feed/"
+    - "https://www.cnbc.com/id/10000354/device/rss/rss.html"  # Personal Finance
+    - "https://www.consumerfinance.gov/about-us/blog/feed/"
+    - "https://www.investopedia.com/news/rss/"
+    - "https://www.irs.gov/newsroom/irs-newswire-rss-feed"
+    - "https://www.marketwatch.com/personal-finance/rss"
+  max_items_per_feed: 8
+
+affiliate_links:
+  high_yield_savings: "https://example-affiliate.com/hysa"
+  budgeting_app: "https://example-affiliate.com/budget"
+  credit_monitoring: "https://example-affiliate.com/credit"
+  robo_advisor: "https://example-affiliate.com/robo"
+
+cta:
+  primary: "Forward this to one friend who loves saving money 💸"
+  secondary: "Hit reply with a question and we’ll feature it!"
+
+social:
+  hashtags: ["#moneymoves", "#finance", "#personalfinance"]
+  handle: "@MoneyMovesDaily"
+
+buffer:
+  enabled: false
+  profiles: []  # Fill with Buffer profile IDs to post to (X, LinkedIn, IG).
+
